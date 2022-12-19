@@ -91,6 +91,9 @@ public class Ejercicio1 implements Initializable {
                         nombreField.clear();
                         sexoField.setValue(null);
                         actividadField.setValue(null);
+                        edadField.getValueFactory().setValue(0);
+                        pesoField.getValueFactory().setValue(0.0);
+                        alturaField.getValueFactory().setValue(0);
                 }
         }
 
